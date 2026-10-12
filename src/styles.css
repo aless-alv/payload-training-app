@@ -68,3 +68,9 @@
 .official-logo{display:block;width:100%;max-width:213px;height:94px;object-fit:contain;object-position:center}
 .side .sidecaption{padding-top:30px}
 @media(max-width:860px){.brand.brand-official{height:105px}.official-logo{width:100%;height:94px}}
+
+/* AAMG official logo — clean, frameless and understated */
+.side .brand.brand-official{height:76px;min-height:76px;display:flex;align-items:center;justify-content:flex-start;padding:0 20px;margin:0;background:transparent;border:0;box-shadow:none;border-radius:0;overflow:visible}
+.side .brand.brand-official .official-logo{display:block;width:146px;max-width:100%;height:68px;object-fit:contain;object-position:center left;filter:none}
+.side .sidecaption{padding-top:27px}
+@media(max-width:860px){.side .brand.brand-official{height:76px;min-height:76px;padding:0 20px}.side .brand.brand-official .official-logo{width:146px;height:68px}}
