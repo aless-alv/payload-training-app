@@ -4,12 +4,12 @@ import React from 'react'
 import './styles.css'
 
 export const viewport = {
-  colorScheme: 'dark',
+  colorScheme: 'light',
 }
 
 export const metadata = {
-  description: 'Aplikacja treningowa',
-  title: 'Trening',
+  description: 'AAMG CLUB — seu treinamento, seu acompanhamento.',
+  title: 'AAMG CLUB | Área do aluno',
   robots: {
     index: false,
     follow: false,
@@ -45,7 +45,7 @@ export default async function RootLayout(props: {
   const messages = await getMessages()
 
   return (
-    <html lang={locale} className="dark">
+    <html lang={locale} className="aamg-theme">
       <body className="bg-ui-bg-base text-ui-fg-base">
         <NextIntlClientProvider messages={messages}>
           <main>{props.children}</main>
