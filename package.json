@@ -14,7 +14,7 @@
     "seed": "cross-env NODE_OPTIONS=\"--no-deprecation --import=tsx/esm\" tsx src/scripts/seed.ts",
     "lint": "cross-env NODE_OPTIONS=--no-deprecation eslint .",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation tsx node_modules/payload/bin.js --disable-transpile",
-    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "start": "yarn payload migrate && cross-env NODE_OPTIONS=--no-deprecation next start",
     "install-skills": "sh scripts/install-skills.sh",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
