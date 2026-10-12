@@ -335,3 +335,41 @@
     @apply max-w-296 w-full mx-auto px-6;
   }
 }
+
+
+/* AAMG CLUB: initial light identity layer, preserving original training interactions */
+.aamg-theme {
+  color-scheme: light;
+  --color-primary: #159cba;
+  --color-primary-light: #52c8d5;
+  --color-primary-dark: #087c9a;
+  --color-ui-fg-base: #173b4b;
+  --color-ui-fg-subtle: #527784;
+  --color-ui-fg-muted: #7295a0;
+  --color-ui-fg-interactive: #118eab;
+  --color-ui-fg-interactive-hover: #087c9a;
+  --color-ui-bg-base: #f5fbfd;
+  --color-ui-bg-base-hover: #edf9fb;
+  --color-ui-bg-subtle: #ebf8fb;
+  --color-ui-bg-subtle-hover: #def4f8;
+  --color-ui-bg-component: #ffffff;
+  --color-ui-bg-field: #ffffff;
+  --color-ui-bg-field-hover: #f4fcff;
+  --color-ui-bg-interactive: #159cba;
+  --color-ui-border-base: #deedf1;
+  --color-ui-border-strong: #bbdae2;
+  --color-ui-border-interactive: #16a6bf;
+  --color-ui-button-neutral: #eaf8fb;
+  --color-ui-button-neutral-hover: #d9f2f7;
+  --shadow-borders-base: 0 0 0 1px #deedf1;
+  --shadow-borders-strong: 0 0 0 1px #bbdae2;
+  --shadow-borders-interactive: 0 0 0 1px #16a6bf;
+  background: radial-gradient(circle at 96% 0%, #dff8ff 0%, transparent 40%), #f5fbfd;
+}
+.aamg-theme .bg-ui-bg-base { background-color: #f5fbfd; }
+.aamg-theme button, .aamg-theme input, .aamg-theme textarea {
+  transition: background-color .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .aamg-theme *, .aamg-theme *::before, .aamg-theme *::after { transition-duration: 0.01ms !important; }
+}
