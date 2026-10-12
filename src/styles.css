@@ -62,3 +62,9 @@
 .template-row b,.template-row small{display:block;font-size:12px}
 .template-row small{color:#90aab5;font-size:10px;margin-top:5px}
 @media(max-width:640px){.volume-item{grid-template-columns:minmax(75px,1fr) minmax(60px,1fr) 60px;gap:6px}.template-create{flex-direction:column}.actions.compact{flex-wrap:wrap}}
+
+/* Official AAMG logo: balanced visual framing in desktop and mobile sidebar */
+.brand.brand-official{height:105px;padding:10px 8px 14px;display:flex;align-items:center;justify-content:center;background:linear-gradient(155deg,#fff,#f3fcff);border:1px solid #e0f1f6;border-radius:16px;overflow:hidden}
+.official-logo{display:block;width:100%;max-width:213px;height:94px;object-fit:contain;object-position:center}
+.side .sidecaption{padding-top:30px}
+@media(max-width:860px){.brand.brand-official{height:105px}.official-logo{width:100%;height:94px}}
