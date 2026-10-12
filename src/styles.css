@@ -36,3 +36,29 @@
 .pickerlist button small{font-size:10px;color:#8faab5}
 .picker-thumb{width:44px;height:40px;border-radius:8px;object-fit:cover}
 @media(max-width:540px){.headline{margin:-10px -8px 16px;padding:12px 8px}.library-tools{gap:8px}.library-tools .searchbar{min-width:100%}.library-tools .groupselect{flex:1;max-width:none}.thumb-editor{grid-template-columns:90px minmax(0,1fr)}.picker-tools .searchbar{min-width:100%}}
+
+
+/* AAMG CLUB — training templates, muscle filters and weekly volume */
+.actions.compact{margin:0;gap:6px}
+.actions.compact .btn{padding:9px 11px}
+.volume-list{display:grid;gap:11px}
+.volume-item{display:grid;grid-template-columns:minmax(105px,1fr) minmax(65px,2fr) 70px;gap:10px;align-items:center;font-size:11px;color:#63899a}
+.volume-item b{font-size:11px;text-align:right;color:#238ea8}
+.volume-track{height:9px;background:#e7f3f7;border-radius:8px;overflow:hidden}
+.volume-track i{display:block;background:linear-gradient(90deg,#32bad5,#5cd9b9);height:100%;border-radius:8px}
+.method-editor{padding:13px;border:1px solid #dbedf1;border-radius:12px;margin:16px 0;background:#f7fcff}
+.method-editor h4{margin-bottom:12px;font-size:12px}
+.method-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:7px;font-size:11px;color:#6995a4}
+.method-row select{border:1px solid #d4e9ef;background:#fff;color:#357c93;padding:8px;border-radius:9px;min-width:135px}
+.hint{font-size:11px;color:#8aa4b0;line-height:1.55;margin:8px 0 16px}
+.submuscle{font-size:10px;margin:-10px 0 12px}
+.secondary-muscles{display:flex;gap:6px;flex-wrap:wrap}
+.secondary-muscles label{display:flex;align-items:center;gap:5px;padding:8px;background:#edfafd;border-radius:10px;color:#56899a;font-size:10px}
+.secondary-muscles input{accent-color:#20aabe}
+.template-create{display:flex;gap:10px;margin:15px 0}
+.template-create input{flex:1;min-width:0;border:1px solid #d4e9ef;border-radius:10px;padding:10px;font-size:12px}
+.template-row{display:flex;align-items:center;gap:12px;padding:12px 2px;border-top:1px solid #e5f1f5}
+.template-row>div{flex:1}
+.template-row b,.template-row small{display:block;font-size:12px}
+.template-row small{color:#90aab5;font-size:10px;margin-top:5px}
+@media(max-width:640px){.volume-item{grid-template-columns:minmax(75px,1fr) minmax(60px,1fr) 60px;gap:6px}.template-create{flex-direction:column}.actions.compact{flex-wrap:wrap}}
